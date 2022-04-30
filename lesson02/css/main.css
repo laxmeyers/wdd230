@@ -1,0 +1,66 @@
+header, footer, main {
+    margin: 0 auto;
+    text-align: center;
+    border: 5px;
+    color: white;
+    font-size: 1.25rem;
+}
+
+p {
+    font-family: "ital", sans-serif;
+}
+
+footer {
+    color: black;
+}
+
+header {
+    background-color: #f5e663;
+    max-width: 65%;
+    border-radius: 15px;
+    color: #2E4057;
+}
+
+.sub {
+    background-color: #74121D;
+    margin-top: 0%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+h1, h2 {
+    font-family: 'Libre Bodoni', serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.section1, .section2, .section3 {
+    background-color: #2E4057;
+    margin: .5em;
+    border-radius: 25px;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #F95738;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: aqua;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  

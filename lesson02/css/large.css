@@ -1,0 +1,9 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    max-width: 300px;
+    width: auto;
+}

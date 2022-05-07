@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #70ddf3;
+    font-family: 'Koulen', cursive;
+}
+
+#site-name {
+    color: white;
+}
+
+a {
+    color: #7b63ff;
+    font-family: 'Tapestry', cursive;
+}
+
+body {
+    background-color: #0c0c0c;
+    text-align: center;
+}
+
+p, li {
+    color: white;
+    font-family: 'Libre Bodoni', serif;
+}
+
+ul li {
+    text-align: left;
+}
+
+#flex-nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#flex-nav a {
+    display: block;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+}
+
+#flex-nav a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.sect2, .sect3 {
+    border-top: solid white;
+    margin: 1em auto;
+    padding: .5em;
+}
+.sect1 {
+    margin: 1em auto;
+    padding: .5em;
+}
+
+footer {
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.color1, .color2, .color3 {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+}
+
+.color1 p, .color2 p, .color3 p, .color1 h3, .color2 h3, .color3 h3 {
+    color: black;
+}
+
+#black {
+    background-color: #0c0c0c;
+    color: white;
+}
+
+#header {
+    background-color: #70ddf3; 
+}
+
+#link {
+    background-color: #7b63ff;
+}
+
+#site-domain {
+    color: white;
+}
+
+.typography {
+    padding: 1em;
+    margin: 1em;
+}

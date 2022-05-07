@@ -1,0 +1,14 @@
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#flex-nav ul{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-main {
+    flex-direction: row;
+    justify-content: space-around;
+}

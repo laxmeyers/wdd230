@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+footer {
+    background-color: grey;
+    font-size: 1.5em;
+}
+
+footer p, footer h3 {
+    color: black;
+}
+
 h1, h2, h3 {
     color: #70ddf3;
     font-family: 'Koulen', cursive;
@@ -78,10 +87,7 @@ header {
     display: block;
 }
 
-footer {
-    background-color: grey;
-    font-size: 1.5em;
-}
+
 
 main {
     display: grid;

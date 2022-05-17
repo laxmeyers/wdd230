@@ -17,4 +17,4 @@ let newName = month[d.getMonth()];
 
 document.querySelector('#day').textContent = day;
 
-document.querySelector("#date").textContent = `${newName} ${date.getDay()} ${date.getFullYear()}`;
+document.querySelector("#date").textContent = `${newName} ${date.getDate()} ${date.getFullYear()}`;

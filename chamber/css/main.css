@@ -9,11 +9,143 @@ footer {
     font-size: 1.5em;
 }
 
-footer p, footer h3 {
+footer p,
+footer h3 {
     color: black;
 }
 
-h1, h2, h3 {
+.star-banner {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto
+}
+
+
+.hero {
+    position: relative;
+}
+
+.weather{
+    position: relative;
+}
+
+#hero-text {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: black;
+    padding: .25em;
+}
+
+#weather_title{
+    position: absolute;
+    top: 4px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    padding: .25em;
+}
+
+.weather_text{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: black;
+    padding: .25em;
+}
+
+.join_chamber_button:hover {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.join_chamber_button:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.join_chamber_button:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.join_chamber_button {
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.join {
+    display: none;
+}
+
+.join_button{
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.join_button:hover {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
     color: #70ddf3;
     font-family: 'Koulen', cursive;
 }
@@ -31,7 +163,8 @@ body {
     min-height: 100vh;
 }
 
-p, li {
+p,
+li {
     color: white;
     font-family: 'Libre Bodoni', serif;
 }
@@ -61,7 +194,7 @@ header {
 }
 
 .navigation li:first-child {
-    display:block;
+    display: block;
 }
 
 .navigation li {
@@ -69,17 +202,17 @@ header {
 }
 
 .navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-decoration: none;
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
 }
 
 .navigation a.ham::before {
-	content: "";
+    content: "";
 }
 
 .navigation a:hover {
-	background-color: grey;
+    background-color: grey;
     color: black;
 }
 
@@ -94,12 +227,18 @@ main {
     grid-template-columns: 1fr;
 }
 
-.hero, .event, .weather, .news, .spotlight, .join {
+.hero,
+.event,
+.weather,
+.news,
+.spotlight,
+.join {
     border: 1px white solid;
     min-height: 10em;
 }
 
-#spot1, #spot2 {
+#spot1,
+#spot2 {
     border: 1px white solid;
     min-height: 5em;
     width: auto;
@@ -137,12 +276,15 @@ main {
         justify-content: space-around;
     }
 
-    #spot1, #spot2, #spot3 {
+    #spot1,
+    #spot2,
+    #spot3 {
         flex: 1 1 auto;
         margin: 0.25em;
     }
 
     .join {
+        display: block;
         grid-column: 1/4;
         grid-row: 4/5;
     }
@@ -185,19 +327,24 @@ main {
     .main-menu {
         max-width: 100%;
     }
-	.navigation {
-		display: flex;
-	}
+
+    .navigation {
+        display: flex;
+    }
+
     .navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
 
     main {
         grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -42,7 +42,11 @@
             <span id="banner"></span>
         </h2>
         <section class="hero">
-            <img class="star-banner" src="images/star-banner.jpeg" alt="Star City toon town" width="1401" height="700">
+            <img class="star-banner" src="images/star-banner-800.webp" alt="Star City toon town" width="1401" height="700"
+            srcset="images/star-banner-500.webp 500w,
+            images/star-banner-800.webp 800w,
+            images/star-banner-1400.webp 1400w"
+            >
             <h2 id="hero-text">Hero with site name and call to action</h2>
             <button class="join_chamber_button">JOIN THE CHAMBER</button>
 
@@ -56,8 +60,9 @@
             <img class="star-banner" src="images/rainbow.jpg" alt="rainbow" id="rainbow">
             <h2 id="weather_title">Weather</h2>
             <p class="weather_text">
-                33F <br>
-                partly cloudy
+                <span id="temp">49</span>F <br>
+                <span id="wind-speed">3.1</span>mph <br>
+                winddchill <span id="wind-chill"></span>
             </p>
         </section>
         <section class="news">
@@ -117,6 +122,7 @@
         </section>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
     <script src="../js/script.js"></script>
 </body>
 

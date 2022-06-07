@@ -1,16 +1,18 @@
-let days = document.querySelector('#visit');
+let days = document.querySelector('#visited');
 
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
+const current = Date.now();
 
-if (numVisits !== 0) {
-	let date = new Date();
+let numVisits;
+
+if (window.localStorage.getItem("visits-ls")) {
+	numVisits = window.localStorage.getItem('visits-ls');
 } else {
-	days.textContent = `This is your first visit!`;
+	numVisits = current;
 }
 
-function findDay(date) {
-    let difference = localStorage.getItem('visits-ls') - new Date().getTime();
-    let totalDays = Math.ceil(difference / (1000 * 3600 * 24))
-}
+window.localStorage.setItem('visits-ls', current)
 
-localStorage.setItem("visits-ls", date);
+const second = Math.floor((current - numVisits) / 1000);
+const lastDay = Math.floor(second / 86400);
+console.log(lastDay)
+days.textContent = lastDay;

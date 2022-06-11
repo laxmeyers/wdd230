@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Libre+Bodoni&family=Tapestry&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+    <title>The Garden Chambers Join</title>
+</head>
+
+<body>
+    <header>
+
+        <section id="flex-nav">
+            <div id="logo"><a href="index.html"><img src="images/logo.webp" alt="garden chambers logo" width="164" height="164"></a></div>
+            <h1 id="site-name">The Garden Chambers Star</h1>
+            <nav class="main-menu">
+                <ul class="navigation">
+                    <li><a class="ham" href="#">Menu</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <h1 class="join-title">Business Application Form</h1>
+        <form action="thankyou.html" method="get" id="businessForm">
+            <fieldset>
+                <legend>Applicant Info</legend>
+                <label class="top">First Name* <br><input type="text" name="fname" required></label>
+                <label class="top">Last Name* <br><input type="text" name="lname" required></label>
+                <label class="top">Email* <br><input type="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone* <br><input type="tel" required></label>
+                <label class="top">Business Position <br><input type="text"></label>
+                <label class="top">Business* <br><input type="text" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Sponsership</legend>
+                <div>Membership</div>
+                <label class="sbs"><input type="radio" name='audience' value="NP">None Profit</label>
+                <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze</label>
+                <label class="sbs"><input type="radio" name="audience" value="silver">Silver</label>
+                <label class="sbs"><input type="radio" name="audience" value="gold">Gold</label>
+
+                <div>Business Description</div>
+                <textarea name="buisness description" placeholder="Business description..." class="area"></textarea>
+            </fieldset>
+            <input type="submit" value="Submit Business Form" class="submitBtn">
+        </form>
+        
+        <section class="membership">
+            <p>NonProfit: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Bronze: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Silver: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Gold: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="contact">
+            <img src="images/logo.webp" alt="logo" width="164" height="164">
+            <div class="address">
+                <h3>Star Garden Chambers</h3>
+                <p>10 Rue De La Paix Star, Idaho 83669</p>
+            </div>
+            <div class="info">
+                <p>info@gardenchambers.org</p>
+                <p>(208)-794-5231</p>
+                <p>Location Map</p>
+            </div>
+        </section>
+        <section class="lower">
+            <p>&copy; <span id="currentyear"></span> | Star Garden Chamber |
+                Andrew Meyers | WDD 230 Project</p>
+            <p>Last Updated: <span id="lastmod"></span></p>
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/daysVisited.js"></script>
+</body>
+
+</html>

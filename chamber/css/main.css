@@ -277,6 +277,7 @@ main {
 form {
     text-align: left;
     width: 100%;
+    background-color: white;
 }
 
 form fieldset {

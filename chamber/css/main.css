@@ -306,7 +306,6 @@ form label.top input, form label.top select{
     border: 1px solid grey;
     border-radius: 4px;
     padding: .75rem;
-    color: darkgray;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, .1);
@@ -329,13 +328,18 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-form label.top input:required{
+form label.top input:required, input:invalid{
     border-left: red solid 6px;
 }
 
-form label.top input:required:valid{
+form label.top input:required:valid, input:valid{
     border-left: green solid 6px;
 }
+
+input {
+    color: black;
+}
+
 
 .area {
     width: 100%;

@@ -40,8 +40,8 @@
                 <label class="top">First Name* <br><input type="text" name="fname" required></label>
                 <label class="top">Last Name* <br><input type="text" name="lname" required></label>
                 <label class="top">Email* <br><input type="email" placeholder="someone@gmail.com" required></label>
-                <label class="top">Phone* <br><input type="tel" required></label>
-                <label class="top">Business Position <br><input type="text"></label>
+                <label class="top">Phone* <br><input type="tel" pattern="/d{3}-/d{3}-/d{4}" required></label>
+                <label class="top">Business Position <br><input type="text" pattern="/D{7+}" minlength="7"></label>
                 <label class="top">Business* <br><input type="text" required></label>
             </fieldset>
 
@@ -57,6 +57,7 @@
                 <textarea name="buisness description" placeholder="Business description..." class="area"></textarea>
             </fieldset>
             <input type="submit" value="Submit Business Form" class="submitBtn">
+            <input type="hidden" id="subdate">
         </form>
         
         <section class="membership">

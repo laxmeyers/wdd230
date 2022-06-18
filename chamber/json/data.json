@@ -1,0 +1,84 @@
+{
+    "business": [{
+            "name": "Bob's Burgers",
+            "email": "bobsburgers@gmail.com",
+            "phone": "208-444-5972",
+            "address": "894 N. Lane St, Star ID, 83669",
+            "website": "bobsburgers.com",
+            "image": "images/bobsburgers.jpeg",
+            "membership": "gold"
+        },
+        {
+            "name": "Softwarely",
+            "email": "Jones@softwarely.com",
+            "phone": "208-425-5982",
+            "address": "721 N. Lane St, Star ID, 83669",
+            "website": "softwarely.com",
+            "image": "images/Softwarily-logos.jpeg",
+            "membership": "bronze"
+        },
+        {
+            "name": "Realty Advocate",
+            "email": "Adamjones@advocate.com",
+            "phone": "208-444-4587",
+            "address": "825 N. Lane St, Star ID, 83669",
+            "website": "realtyadvocate.com",
+            "image": "images/realtyadvocate.jpeg",
+            "membership": "silver"
+        },
+        {
+            "name": "Tots Inspired",
+            "email": "inspiredtots@gmail.com",
+            "phone": "208-867-5309",
+            "address": "1006 N. Lane St, Star ID, 83669",
+            "website": "inspiredtots.com",
+            "image": "images/totsinspired.jpeg",
+            "membership": "np"
+        },
+        {
+            "name": "Proclaim Skin and Massage",
+            "email": "joanfarther@proclaim.com",
+            "phone": "208-553-6666",
+            "address": "321 N. Lane St, Star ID, 83669",
+            "website": "proclaimskin.com",
+            "image": "images/proclaim.jpeg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Recess Cabana",
+            "email": "cabana@gmail.com",
+            "phone": "208-732-3771",
+            "address": "635 N. Lane St, Star ID, 83669",
+            "website": "recesscabana.com",
+            "image": "images/cabana.jpeg",
+            "membership": "silver"
+        },
+        {
+            "name": "Gymquipo",
+            "email": "gymquipo@msn.com",
+            "phone": "208-784-7646",
+            "address": "646 N. Lane St, Star ID, 83669",
+            "website": "gymquipo.com",
+            "image": "images/gymquipo.jpeg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Raw Wheat",
+            "email": "justinporters@rawwheat.com",
+            "phone": "208-729-9432",
+            "address": "432 N. Lane St, Star ID, 83669",
+            "website": "rawwheat.com",
+            "image": "images/rawwheat.jpeg",
+            "membership": "bronze"
+        },
+        {
+            "name": "Woodistic",
+            "email": "Woodyfarnsworth@woodistic.com",
+            "phone": "208-966-3478",
+            "address": "966 N. Lane St, Star ID, 83669",
+            "website": "woodistic.com",
+            "image": "images/woodistic.jpeg",
+            "membership": "silver"
+        }
+    ]
+}

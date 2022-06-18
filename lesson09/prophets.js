@@ -4,6 +4,7 @@ fetch(url)
 .then (data => {
     const prophets = data['prophets']
     prophets.forEach(displayProphets);
+    console.log(data["prophets"])
 });
 
 function displayProphets(prophet){

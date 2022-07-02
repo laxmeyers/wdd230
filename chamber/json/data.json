@@ -42,7 +42,7 @@
             "address": "321 N. Lane St, Star ID, 83669",
             "website": "proclaimskin.com",
             "image": "images/proclaim.jpeg",
-            "membership": "Gold"
+            "membership": "gold"
         },
         {
             "name": "Recess Cabana",
@@ -60,7 +60,7 @@
             "address": "646 N. Lane St, Star ID, 83669",
             "website": "gymquipo.com",
             "image": "images/gymquipo.jpeg",
-            "membership": "Gold"
+            "membership": "gold"
         },
         {
             "name": "Raw Wheat",

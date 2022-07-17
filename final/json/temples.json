@@ -1,0 +1,42 @@
+{
+    "temples": [{
+        "name": "Meridian Idaho Temple",
+        "address": "7355 N Linder Rd Meridian ID 83646 United States",
+        "phone": "(1) 208-957-7300",
+        "services": "None available",
+        "announced": "2 April 2011",
+        "groundbreak": "23 August 2014",
+        "dedicated": "19 November 2017",
+        "image": "images/meridian.jpg"
+    },
+    {
+        "name":"Chicago Illinois Temple",
+        "address": "4151 W Lake Ave Glenview IL 60025-1240 United States",
+        "phone": "(1) 847-299-6500",
+        "services": "clothing rentals, distribution department",
+        "announced": "1 April 1981",
+        "groundbreak": "13 August 1983",
+        "dedicated":"9 August 1985",
+        "image": "images/illinois.jpg"
+    },
+    {
+        "name": "Columbia River Washington Temple",
+        "address": "969 Gage Blvd Richland WA 99352-7777 United States",
+        "phone": "(1) 509-628-0990",
+        "services": "distribution center",
+        "announced": "2 April 2000",
+        "groundbreak": "28 October 2000",
+        "dedicated":"18 November 2001",
+        "image": "images/columbia.jpg"
+    },
+    {
+        "name": "Draper Utah Temple",
+        "address": "14065 Canyon Vista Ln Draper UT 84020-5626 United States",
+        "phone": "(1) 801-576-4240",
+        "services": "clothing rental, distribution center",
+        "announced": "2 October 2004",
+        "groundbreak": "5 August 2006",
+        "dedicated": "20 March 2009",
+        "image": "images/draper.jpg"
+    }
+]}

@@ -1,0 +1,66 @@
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-menu{
+    padding: 1em;
+}
+
+main{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.activities{
+    grid-column: 1/4;
+}
+
+.temple{
+    grid-column: 1/4;
+}
+
+.title{
+    grid-column: 1/4;
+}
+
+.queen{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 1em;
+}
+
+.queenImg{
+    grid-column: 2/4;
+    margin: 1em;
+}
+
+.king{
+    grid-column: 3/4;
+    margin: 1em;
+}
+
+.kingImg{
+    grid-column: 1/3;
+    margin: 1em;
+}
+
+.contact{
+    grid-column: 1/4;
+}
+
+.amenity{
+    grid-column: 1/2;
+}
+
+.services{
+    grid-column: 3/4;
+}
+
+#missionaryBtn{
+    grid-column: 3/4;
+    margin: .5em;
+}
+
+#receptionBtn{
+    margin: .5em;
+}

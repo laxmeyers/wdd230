@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css" media="screen and (min-width: 600px)">
+    <title>Temple Inn & Suites</title>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Inn & Suites</h1>
+        <!-- Logo will go here -->
+        <div><a href="index.html"><img src="images/220px-MORONI2.jpg" alt="logo" id="logo"></a></div>
+
+        <nav class="main-menu">
+            <ul class="links">
+                <li><a href="temples.html">Temples</a></li>
+                <!-- <li><a href="weather.html">Weather</a></li> -->
+                <li><a href="amenities.html">Amenities</a></li>
+                <!-- <li><a href="#">Reception</a></li>
+                <li><a href="#">Temple Missionaries</a></li> -->
+                <li><a href="reservation.html">Reservations</a></li>
+            </ul>
+        </nav>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <br><input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <br><input type="text" name="lname" required></label>
+                    <label class="top">Phone <br><input type="tell" pattern="\d{3}-\d{3}-\d{4}" name="phone"
+                            placeholder="123-555-1234"></label>
+                    <label class="top">Email* <br><input type="email" name="email" placeholder="someone@gmail.com"
+                            required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Hotel Info</legend>
+                    <div>Hotel</div>
+                    <label class="sbs"><input type="radio" name="audience" value="meridian">Meridian</label>
+                    <label class="sbs"><input type="radio" name="audience" value="draper">Draper</label>
+                    <label class="sbs"><input type="radio" name="audience" value="chicago">Chicago</label>
+                    <label class="sbs"><input type="radio" name="audience" value="washington">Washington</label>
+                    <label>How many People (max 6)*<input type="number" id="quantity" name="quantity" min="1" max="6" required></label>
+                </fieldset>
+                <input type="submit" value="Reserve" class="submitBtn">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div><a href="index.html"><img src="images/220px-MORONI2.jpg" alt="logo" id="logo"></a></div>
+        <h2>Temple Inn & Suites</h2>
+
+        <section class="contact">
+            <p>Phone: <a href="tel:2087945231">(208)-794-5231</a></p>
+            <p>Address: <a
+                    href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"
+                    target="_blank">4800 Montgomery Ln #300,<br> Bethesda, MD 20814</a></p>
+            <p>Email: <a href="mailto: mey18003@byui.edu">representative@templesuites.com</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/" target="_blank">Temple Inn & Suites</a></p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
